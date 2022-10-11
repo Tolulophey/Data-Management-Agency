@@ -1,0 +1,136 @@
+.about{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: #ffebfb;
+}
+.about > .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about > .top > .data_manager{
+    width: 816px;
+    width: 55%;
+    height: 108px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #3C3434;
+    margin-bottom: 50px;
+}
+.about > .top > .data{
+    width: 40%;
+    margin-bottom: 50px;
+    /* width: 561px; */
+    height: 90px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.about > .top > form{
+    margin-bottom: 50px;
+}
+.about > .top > form > input{
+    padding: 10px 64px;
+    width: 345px;
+    height: 56px;
+    background: #ccc;
+    margin-right: 50px;
+    border-radius: 24px;
+    outline: 0;
+    border: 0;
+}
+.about > .top > form > input::placeholder{
+    color: #fb03d3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.about > .top > form > button{
+    width: 150px;
+    padding: 12px 32px;
+    width: 204px;
+    height: 60px;
+    color: #fffbfe;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    left: 529px;background: #fb03d3;
+    outline: 0;
+    border: 0;
+    border-radius: 12px;
+}
+.about > .top > .companies{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    /* justify-content: center; */
+}
+.about > .top > .companies > p{
+    width: 566px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #3C3434;
+}
+.about > .top > .companies > .company{
+    display: flex;
+    width: 100%;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+.about > .top > .companies > .company > img{
+    margin: 0 20px;
+}
+.about > .bottom {
+    padding: 150px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+.about > .bottom > .top{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about > .bottom > .youtube{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about > .bottom > .youtube > button {
+    margin: 20px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #fff;
+    color: #FB03D3;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
