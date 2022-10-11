@@ -60,15 +60,15 @@ const plans = [
   const socialMedias = [
     {
         image: instagram,
-        link: "https:www.instagram.com"
+        link: "https://www.instagram.com"
     },
     {
         image: twitter,
-        link: "https:www.twitter.com"
+        link: "https://www.twitter.com"
     },
     {
         image: youtube,
-        link: "https:www.youtube.com"
+        link: "https://www.youtube.com"
     }
   ]
 
