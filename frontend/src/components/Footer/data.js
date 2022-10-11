@@ -6,11 +6,11 @@ import instagram from '../../images/instagram.svg'
 const plans = [
     {
         plan: "Product",
-        link: "/product"
+        link: "#"
     },
     {
         plan: "Customer Services",
-        link: "/services"
+        link: "#"
     },
     {
         plan: "Pricing",
@@ -18,26 +18,26 @@ const plans = [
     },
     {
         plan: "About",
-        link: "/about"
+        link: "#"
     },
     {
         plan: "Support",
-        link: "/support"
+        link: "#"
     },
   ]
 
   const teams = [
     {
         team: "Creative Agencies",
-        link: "/creative"
+        link: "#"
     },
     {
         team: "Consultancies",
-        link: "/consultancy"
+        link: "#"
     },
     {
         team: "Implementation Terms",
-        link: "/implementation-terms"
+        link: "#"
     }
   ]
 
@@ -45,15 +45,15 @@ const plans = [
   const usefulLinks = [
     {
         page: "Blog",
-        link: "/blog"
+        link: "#"
     },
     {
         page: "Terms of Use",
-        link: "/terms"
+        link: "#"
     },
     {
         page: "Privacy Policy",
-        link: "/policies"
+        link: "#"
     }
   ]
 

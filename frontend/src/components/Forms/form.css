@@ -3,7 +3,7 @@
     display: flex;
     background: linear-gradient(89.9deg, rgba(48, 14, 40, 0.6) 11.56%, rgba(22, 1, 1, 0.363124) 90.39%, rgba(11, 9, 9, 0) 105.57%);
     padding-top: 80px;
-    min-height: 100vh;
+    height: 100vh;
     color: #000000;
 }
 .form-page > .left {
