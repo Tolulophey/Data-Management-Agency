@@ -1,0 +1,88 @@
+.form-page{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(89.9deg, rgba(48, 14, 40, 0.6) 11.56%, rgba(22, 1, 1, 0.363124) 90.39%, rgba(11, 9, 9, 0) 105.57%);
+    padding-top: 80px;
+    min-height: 100vh;
+    color: #000000;
+}
+.form-page > .left {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    width: 40%;
+}
+.form-page > .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 130px 80px 130px 150px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff;
+}
+.form-page > .form a {
+    text-decoration: none;
+    color: inherit;
+}
+.form-page > .form > form > input {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(128, 117, 117, 0.8);;
+}
+.form-page > .form > form > input[type="button"]{
+    padding: 12px 64px;
+    width: 257px;
+    height: 48px;
+    left: 1002px;
+    top: 469px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #FB03D3;
+    border-radius: 12px;
+}
+.form-page > .form > p{
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.form-page > .form > p > span{
+    color: #FB03D3;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.form-page > .form > .alternatives{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    margin-top: 30px;
+}
+.form-page > .form > .alternatives > p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.form-page > .form  .alternates{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form-page > .form  .alternates > .google,
+.form-page > .form  .alternates > .facebook{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.form-page > .form  .alternates > .google > img,
+.form-page > .form  .alternates > .facebook > img{
+    margin-right: 15px;
+}
