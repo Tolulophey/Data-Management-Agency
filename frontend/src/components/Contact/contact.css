@@ -70,6 +70,7 @@
 }
 .contact > .right > form > textarea{
     height: 100px;
+    resize: none;
 }
 .contact > .right > form > input::placeholder,
 .contact > .right > form > textarea::placeholder{
