@@ -1,3 +1,102 @@
 .contact{
-    padding-top: 10vh;
+    padding-top: 80px;
+    background: linear-gradient(89.9deg, rgba(48, 14, 40, 0.6) 11.56%, rgba(22, 1, 1, 0.363124) 90.39%, rgba(11, 9, 9, 0) 105.57%);
+    display: flex;
+    height: 100vh;
+}
+.contact > .left{
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact > .left a{
+    text-decoration: none;
+    color: inherit;
+}
+.contact > .left > .top > h2{
+    width: 354px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+.contact > .left > .top > p{
+    width: 369px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.contact > .left > .details > div > .detail{
+    text-transform: uppercase;
+    line-height: 24px;
+    opacity: 0.6;
+}
+.contact > .left > .details > div  .value{
+    line-height: 24px;
+    color: #FB03D3;
+}
+.contact > .right {
+    color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 100px;
+    background-color: #000;
+}
+.contact > .right > h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 50px;
+}
+.contact > .right a {
+    text-decoration: none;
+    color: inherit;
+}
+.contact > .right > form > input,
+.contact > .right > form > textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(128, 117, 117, 0.8);
+}
+.contact > .right > form > textarea{
+    height: 100px;
+}
+.contact > .right > form > input::placeholder,
+.contact > .right > form > textarea::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+.contact > .right > form > input[type="button"]{
+    padding: 15px 80px;
+    width: 385px;
+    height: 74px;
+    margin: 50px 0;
+    text-transform: uppercase;
+    background: #FB03D3;
+    border-radius: 18px;
+}
+
+.contact > .right > .social-media{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.contact > .right > .social-media > .media {
+    margin: 0 25px;
+    height: 25px;
+    width: 25px;
 }

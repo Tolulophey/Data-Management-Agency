@@ -6,6 +6,7 @@ import Price from './Pages/Price';
 import ContactPage from './Pages/ContactPage';
 import LoginPage from './Pages/LoginPage';
 import SignupPage from './Pages/SignupPage';
+import About from './components/About/About';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
         {/* <Header /> */}
         <Routes>
             <Route path="/" element={<Home />}/>
+            <Route path="/#about" element={<About />}/>
             <Route path="/pricing" element={<Price />}/>
             <Route path="/contact" element={<ContactPage />}/>
             <Route path="/login" element={<LoginPage />}/>

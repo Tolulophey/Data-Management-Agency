@@ -1,0 +1,177 @@
+.pricing{
+    padding-top: 100px;
+    background: #D9D9D9;
+    display: flex;
+    height: 100vh;
+    padding: 155px 75px 75px 75px ;
+}
+.pricing > div{
+    width: calc(100%/3);
+    margin: 0 20px;
+    height: 100%;
+}
+.pricing > .features-container {
+    background: linear-gradient(180deg, #8C387A 0%, rgba(53, 2, 42, 0.99) 71.87%);
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    padding: 50px;
+    color: #fff;
+}
+.pricing > .features-container > h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.pricing > .features-container > .features{
+    margin: 50px 0 50px 10px;
+}
+.pricing > .features-container > .features > .feature{
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+.pricing > .features-container > .features > .feature{
+    display: flex;
+}
+.pricing > .features-container > .features > .feature > img{
+    margin-right: 10px;
+}
+.pricing > .middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+.pricing > .middle > .top > .first {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.pricing > .middle > .top > .second {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.pricing > .middle > .top > .price-switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.pricing > .middle > .top >  .price-switch >  .toggle{
+    margin: 0 20px;
+}
+.pricing > .middle > .top >  .price-switch >  .toggle .on{
+    width: 50px;
+}
+.pricing > .middle > .top >  .price-switch  .toggle > .toggle-on {
+    display: flex;
+    align-items: center;
+}
+.pricing > .middle > .top >  .price-switch  .toggle > .toggle-off {
+    display: none;
+    align-items: center;
+}
+.pricing > .middle > .top > .price-switch  .toggle.active > .toggle-on {
+    display: none;
+}
+.pricing > .middle > .top >  .price-switch .toggle.active > .toggle-off {
+    display: flex;
+} 
+.pricing > .middle > .basic, 
+.pricing > .premium{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    height: 100%;
+    padding: 30px;
+
+}
+.pricing > .middle > .basic{
+    width: 100%;
+}
+.pricing > .premium{
+    background: #300E28;
+    color: #fff;
+}
+.pricing > .middle > .basic > .top,
+.pricing > .premium > .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pricing > .middle > .basic > .top > .left > h2,
+.pricing > .premium > .top > .left > h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+.pricing > .middle > .basic > .top > .right,
+.pricing > .premium > .top > .right{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #D9D9D9;
+    border-radius: 6px;
+    padding: 10px;
+}
+.pricing > .premium > .top > .right{
+    color: #fff;
+    background: rgba(217, 217, 217, 0.5);
+}
+.pricing > .middle > .basic > .top > .right > p,
+.pricing > .premium > .top > .right > p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+.pricing > .middle > .basic > .top > .right > p.plan,
+.pricing > .premium > .top > .right > p.plan{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.pricing > .middle > .basic > .bottom,
+.pricing > .premium > .bottom{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.pricing > .middle > .basic > .bottom > p,
+.pricing > .premium > .bottom > p{
+    margin-bottom: 30px;
+}
+.pricing > .middle > .basic > .bottom > .plans,
+.pricing > .premium > .bottom > .plans{
+    margin-left: 20px;
+    margin-bottom: auto;
+}
+.pricing > .middle > .basic > .bottom > .plans > .plan,
+.pricing > .premium > .bottom > .plans > .plan{
+    margin: 10px 0;
+}
+.pricing > .middle > .basic > .bottom > .subscribe,
+.pricing > .premium > .bottom > .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pricing > .middle > .basic > .bottom > .subscribe > button,
+.pricing > .premium > .bottom > .subscribe > button{
+    padding: 10px 52px;
+    width: 244px;
+    height: 56px;
+    background: #FB03D3;
+    border: 0;
+    border-radius: 12px;
+}
