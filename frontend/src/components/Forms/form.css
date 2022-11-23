@@ -7,6 +7,7 @@
     color: #000000;
 }
 .form-page > .left {
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     height: inherit;
@@ -69,6 +70,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .form-page > .form  .alternates{
     display: flex;
@@ -84,5 +86,19 @@
 }
 .form-page > .form  .alternates > .google > img,
 .form-page > .form  .alternates > .facebook > img{
-    margin-right: 15px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .form-page > .form {
+        padding: 130px 50px 130px 50px;
+        border-radius: 30px 0 0 30px;
+    }
+    .form-page > .form  .alternates > .google, .form-page > .form  .alternates > .facebook {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
 }

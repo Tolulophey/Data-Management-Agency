@@ -29,8 +29,10 @@
     align-items: center;
 }
 .nav{
-    min-width: 800px;
+    display: flex;
+    height: 100%;
 }
+
 .forms{
     width: 200px;
     display: flex;
@@ -38,26 +40,31 @@
 }
 .nav > .icon {
     display: none;
+    /* position: absolute;
+    right: 30px;
+    top: 30px; */
 }
-.nav > ul{
+.nav > .nav_options{
+    min-width: 800px;
     width: 100%;
-    display: flex;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: center;
     list-style-type: none;
     text-decoration: none;
 }
-.nav > ul >a{
+.nav > .nav_options >a{
     text-decoration: none;
     color: white;
 }
-.nav > ul  li{
+.nav > .nav_options  li{
     margin: 0 20px;
     text-align: center;
 }
 
 .forms{
     display: flex;
+    align-items: center;
 }
 .forms a {
     display: block;
@@ -67,6 +74,7 @@
 .forms a > button {
     width: 100%;
     padding: 10px;
+    height: 40px;
     background-color: transparent;
     outline: 0;
     border: 0;
@@ -74,4 +82,81 @@
 }
 .forms a:first-child {
     background-color: #fb03d3;
+}
+@media screen and (max-width:900px) {
+    .header{
+        justify-content: flex-start;
+        position: relative;
+    }
+    .nav{
+        width: 60%;
+        color: #fb03d3;
+        height: fit-content;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        padding: 0 30px;
+        margin-right: -50px;
+    }
+    .nav.active{
+        background-color: #000;
+        /* margin-top: 350px; */
+        height: 50vh;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .nav > .nav_options {
+        width: 100%;
+        height: auto;
+        display: none;
+        flex-direction: column;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .nav.active > .nav_options{
+        display: flex;
+    }
+    .nav > .nav_options >a{
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+        
+    }
+    .nav > .nav_options  li{
+        margin: 0 20px;
+        text-align: left;
+    }
+    .forms{
+        display: none;
+        flex-direction: column;
+    }
+    nav.active .forms{
+        display: flex;
+    }
+    .nav > .icon {
+        display: flex;
+        height: 80px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .nav.active > .icon > .faBar {
+        display: none;
+        margin-bottom: 100px;
+    }
+    .nav > .icon > .closeBar {
+        display: none;
+    }
+    .nav.active > .icon > .closeBar {
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (max-width:400px) {
+    
 }

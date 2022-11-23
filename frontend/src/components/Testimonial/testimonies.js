@@ -21,8 +21,20 @@ const data = [
         testimony: "“ These platform has been saving me for a while now, All my data have been monitored and well prepared. No more stress! “"
     },
     {
-        id: 3,
+        id: 4,
         name: "User 4",
+        image: image2,
+        testimony: "“ These platform has been saving me for a while now, All my data have been monitored and well prepared. No more stress! “"
+    }, 
+    {
+        id: 5,
+        name: "User 5",
+        image: image1,
+        testimony: "“ These platform has been saving me for a while now, All my data have been monitored and well prepared. No more stress! “"
+    },
+    {
+        id: 6,
+        name: "User 6",
         image: image2,
         testimony: "“ These platform has been saving me for a while now, All my data have been monitored and well prepared. No more stress! “"
     }

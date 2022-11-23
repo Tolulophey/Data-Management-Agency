@@ -101,7 +101,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     height: auto;
 }
 .about > .bottom > .top{
@@ -133,4 +133,34 @@
     outline: 0;
     border-radius: 15px;
     padding: 10px 20px;
+}
+
+@media screen and (max-width:900px) {
+    .about > .top > .data_manager {
+        width: 80%;
+        height: auto;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .about > .top > .data {
+        width: 70%;
+        margin-bottom: 30px;
+        height: auto;
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+    .about > .top > form {
+        margin-bottom: 30px;
+    }
+    .about > .top > .companies > p {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .about > .top > .companies > .company > img {
+        width: 20%;
+    }
 }

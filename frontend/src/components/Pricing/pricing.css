@@ -66,9 +66,6 @@
 .pricing > .middle > .top >  .price-switch >  .toggle{
     margin: 0 20px;
 }
-.pricing > .middle > .top >  .price-switch >  .toggle .on{
-    width: 50px;
-}
 .pricing > .middle > .top >  .price-switch  .toggle > .toggle-on {
     display: flex;
     align-items: center;

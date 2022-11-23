@@ -1,12 +1,9 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import {MenuContext} from "../Header/Header"
 
 
 
-function Form() {
-  const menu = useContext(MenuContext)
-  const hideSideBar = menu.hide;
+function Form({hideSideBar}) {
   return (
     <div className="forms" onClick={hideSideBar}>
         <Link to="/login">

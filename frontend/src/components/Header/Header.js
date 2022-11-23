@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from "../../images/logo.svg"
-import Form from './Form'
+// import Form from './Form'
 import Navbar from './Navbar'
 import './header.css'
 
@@ -17,7 +17,7 @@ function Header() {
         </div>
         <MenuContext.Provider value={{showMenu: showMenu, show: showSideBar, hide: hideSideBar}} >
           <Navbar />
-          <Form />
+          {/* <Form  /> */}
         </MenuContext.Provider>
         
     </div>

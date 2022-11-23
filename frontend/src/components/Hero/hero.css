@@ -75,3 +75,41 @@
     border: 0;
     border-radius: 12px;
 }
+
+@media screen and (max-width:900px) {
+    .container {
+        padding: 0 50px;
+        padding-top: 150px;
+    }
+    .container .left {
+        width: 55%;
+    }
+    .container .left > .top > .text {
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .container .left > .top > .name {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .container .left > .top > .description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .container .right {
+        width: 45%;
+    }
+    .container .right > img {
+        width: 80%;
+    }
+    .container .left > .bottom > form {
+        margin-top: 50px;
+    }
+    .container .left > .bottom > form > input {
+        padding: 10px 30px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+}
