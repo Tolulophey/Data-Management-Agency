@@ -10,3 +10,11 @@
   font-family: 'Poppins';
   font-style: normal;
 }
+.hero, .about, .testimonial{
+        min-height: 800px;
+}
+@media screen and (max-width:1000px){
+    .hero, .about, .testimonial{
+        max-height: 800px;
+    }
+}

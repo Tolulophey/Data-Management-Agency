@@ -83,6 +83,7 @@
 .forms a:first-child {
     background-color: #fb03d3;
 }
+
 @media screen and (max-width:900px), (max-width:700px) {
     .header{
         justify-content: flex-start;
@@ -94,6 +95,7 @@
         flex-direction: column;
         position: absolute;
         top: 0;
+        z-index: 2222;
         right: 0;
         padding: 40px;
     }
@@ -103,6 +105,21 @@
     }
     .logo{
         margin-right: auto;
+    }
+    .nav > .icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .nav.active > .icon > .faBar {
+        display: none;
+        margin-bottom: 100px;
+    }
+    .nav > .icon > .closeBar {
+        display: none;
+    }
+    .nav.active > .icon > .closeBar {
+        display: block;
     }
     .nav > .nav_options {
         width: 100%;
@@ -137,17 +154,11 @@
         align-items: center;
         justify-content: flex-end;
     }
-    .nav.active > .icon > .faBar {
-        display: none;
-        margin-bottom: 100px;
-    }
-    .nav > .icon > .closeBar {
-        display: none;
-    }
-    .nav.active > .icon > .closeBar {
-        display: block;
-    }
 }
+
+/* @media screen and (max-width:900px), (max-width:700px){
+    
+} */
 
 @media screen and (max-width:600px) {
     
