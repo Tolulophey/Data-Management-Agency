@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+    max-height: 100%;
     width: 100%;
     padding: 155px 75px 75px 75px ;
 }
@@ -184,7 +185,7 @@
     border-radius: 12px;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px), (max-width:700px) {
     .pricing > .features-container {
         border-radius: 16px;
         padding: 20px;
@@ -212,5 +213,30 @@
     }
     .pricing > .middle > .basic > .bottom > p, .pricing > .premium > .bottom > p {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:400px), (max-width:500px) {
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding: 0;
+        padding-top: 80px;
+    }
+    .pricing > div {
+        width: 100%;
+        height: 100%;
+    }
+    .pricing > .features-container, .pricing > .middle > .basic, .pricing > .premium {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        height: 500px;
+    }
+    .pricing > div:nth-child(2) {
+        margin:0;
+        margin-top: 20px;
+
     }
 }

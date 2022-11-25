@@ -7,13 +7,13 @@ import ContactPage from './Pages/ContactPage';
 import LoginPage from './Pages/LoginPage';
 import SignupPage from './Pages/SignupPage';
 import About from './components/About/About';
+import ScrollToTop from './components/scrollTop';
 
 function App() {
-  
   return (
     <div className="App">
       <Router>
-        {/* <Header /> */}
+        <ScrollToTop />
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/#about" element={<About />}/>
@@ -22,7 +22,6 @@ function App() {
             <Route path="/login" element={<LoginPage />}/>
             <Route path="/signup" element={<SignupPage />}/>
         </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
   );

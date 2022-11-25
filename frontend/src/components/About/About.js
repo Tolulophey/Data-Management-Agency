@@ -22,7 +22,7 @@ function About() {
           <p>Companies we've worked with</p>
           <div className="company">
               {companies.map((company, index)=>{
-              return <img src={company} alt={company} key={index+1} />
+              return <img src={company} alt={`company ${index+1}`} key={index+1} />
             })}
           </div>
         </div>

@@ -6,7 +6,6 @@
     margin: 0 auto;
     width: 70%;
     justify-content: center;
-    height: auto;
     height: 100vh;
 }
 .testimonial > .testifier{
@@ -48,4 +47,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:400px) {
+    .testimonial {
+        width: 100%;
+        padding: 0 30px;
+        /* padding-top: 100px; */
+        min-height: 100%;
+        /* height: 100%; */
+    }
+    .testimonial > .testimony {
+        height: auto;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
 }

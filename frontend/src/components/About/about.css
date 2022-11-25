@@ -64,7 +64,8 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    left: 529px;background: #fb03d3;
+    left: 529px;
+    background: #fb03d3;
     outline: 0;
     border: 0;
     border-radius: 12px;
@@ -101,7 +102,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
+    /* z-index: -1;
+    position: relative; */
     height: auto;
 }
 .about > .bottom > .top{
@@ -162,5 +164,102 @@
     }
     .about > .top > .companies > .company > img {
         width: 20%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .about {
+        padding: 0 30px;
+        padding-top: 100px;
+    }
+    .about > .top > .data_manager {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .about > .top > .data {
+        width: 100%;
+        margin-bottom: 30px;
+        height: auto;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .about > .top > .companies > p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .about > .top > .companies > .company {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    .about > .top > form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about > .top > form > input {
+        padding: 10px 30px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .about > .top > form > input::placeholder{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .about > .top > form > button {
+        padding: 12px 32px;
+        width: 204px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 10px;
+    }
+    .about > .top > .companies > .company > img {
+        width: calc(100%/2);
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .about > .bottom {
+        padding: 30px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .about > .bottom > .top{
+        width: 100%;
+    }
+    .about > .bottom > .top > img{
+        width: 100%;
+    }
+    .about > .bottom > .youtube{
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about > .bottom > .youtube > img{
+        width: 50px;
+    }
+    .about > .bottom > .youtube > button {
+        padding: 10px 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 10px;
     }
 }

@@ -102,3 +102,22 @@
     }
 
 }
+
+@media screen and (max-width:400px), (max-width:500px) {
+    .form-page {
+        height: 100%;
+        padding-top: 80px;
+    }
+    .form-page > .left {
+        margin-top: -80px;
+        display: none;
+    }
+    .form-page > .form {
+        width: 100%;
+        border-radius: 0;
+        padding: 50px 30px;
+    }
+    .form-page > .form  .alternates p {
+        font-size: 14px;
+    }
+}

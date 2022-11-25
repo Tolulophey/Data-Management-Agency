@@ -58,3 +58,37 @@
         padding: 150px 100px;
     }
 }
+@media screen and (max-width:400px), (max-width:500px) {
+    .footer{
+        padding: 50px 30px;
+    }
+    .footer > .top > div > p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .footer > .top > div > div >  div p {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 10px 0;
+    }
+    .footer > .bottom {
+        padding: 30px 0;
+    }
+    .footer > .bottom > .logo {
+        width: 40%;
+    }
+    .footer > .bottom > .social-media {
+        width: 60%;
+    }
+    .footer > .bottom > .logo > img {
+        /* height: 50% */
+        width: 80%;
+    }
+    .footer > .bottom > .social-media > .media {
+        margin: 0 10px;
+        height: 25px;
+        width: 25px;
+    }
+}
