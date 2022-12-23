@@ -9,10 +9,11 @@
   font-family: "google-font-name", sans-serif;
   font-family: 'Poppins';
   font-style: normal;
+  width: 100%;
+  /* max-width: 1440px; */
 }
 .hero, .about, .pricing, .form-page, .testimonial{
         min-height: 800px;
-        max-width: 1440px;
 }
 @media screen and (max-width:1000px){
     .hero, .pricing .testimonial{

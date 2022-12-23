@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import {MenuContext} from "../Header/Header"
@@ -30,19 +31,13 @@ function Navbar() {
         <Link to="/">
           <li>Home</li>
         </Link>
-        {/* <a href="/#about">
+        {/* check this and apply to all other part of homepage */}
+        <HashLink smooth to="/#about">
           <li>About</li>
-        </a> */}
-        <Link
-            to="/#about"
-          // to={{
-          //     pathname: "/",
-          //     hash: "#about",
-          //     state: { fromHome: true }
-          //   }}
-        >
-          <li>About</li>
-        </Link>
+        </HashLink>
+        <HashLink smooth to="/#testimonial">
+          <li>Testimonial</li>
+        </HashLink>
         <Link to="/pricing">
           <li>Pricing</li>
         </Link>

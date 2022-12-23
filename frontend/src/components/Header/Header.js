@@ -25,7 +25,6 @@ function Header() {
         <MenuContext.Provider value={{showMenu: showMenu, show: showSideBar, hide: hideSideBar}} >
           <Navbar />
         </MenuContext.Provider>
-        
     </div>
   )
 }

@@ -17,6 +17,7 @@
 .form-page > .form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 60%;
     padding: 130px 80px 130px 150px;
@@ -26,6 +27,9 @@
 .form-page > .form a {
     text-decoration: none;
     color: inherit;
+}
+.form-page > .form > form {
+    width: 80%;
 }
 .form-page > .form > form > input {
     display: block;

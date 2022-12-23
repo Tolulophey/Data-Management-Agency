@@ -25,7 +25,7 @@ function Testimonial() {
     setTestimony(checkNumber(testimony+1))
   }
   return (
-    <div className='testimonial'>
+    <div className='testimonial' id='testimonial'>
         <div className="testifier">
           <img src={message.image} alt={message.name} />
         </div>
