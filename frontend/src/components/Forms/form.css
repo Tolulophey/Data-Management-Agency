@@ -34,12 +34,12 @@
 .form-page > .form > form > input {
     display: block;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px;
     border: 0;
     margin-bottom: 30px;
     border-bottom: 1px solid rgba(128, 117, 117, 0.8);;
 }
-.form-page > .form > form > input[type="button"]{
+.form-page > .form > form > input[type="submit"]{
     padding: 12px 64px;
     width: 257px;
     height: 48px;
@@ -92,6 +92,25 @@
 .form-page > .form  .alternates > .facebook > img{
     margin-right: 10px;
 }
+
+.pass_match{
+    color: red;
+    font-size: small;
+    padding: 5px 0;
+    font-weight: 500;
+    width:80%;
+    margin:0px calc(20%/2);
+}
+
+.register{
+    color: red;
+    font-size: small;
+    padding: 5px 0;
+    font-weight: 500;
+    width:80%;
+    margin:0px calc(20%/2);
+}
+
 
 @media screen and (max-width:900px) {
     .form-page > .form {
